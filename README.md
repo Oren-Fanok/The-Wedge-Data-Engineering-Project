@@ -21,14 +21,16 @@ Files for this task:
 
 Wedge Task 3_Creating_database (Queries).ipynb
 
-This code file is designed to create a local SQL database from the cleaned files we uploaded into GBQ in task 1. To begin I wrote 3 individual queries in GBQ, one query for Sales by date/hour, one query for Sales by owner/year/month, and one query for Sales by product description. I saved all three resulting tables from these queries locally to my device. Now in the python code file I start by initializing a connection to sqlite3 and creating an empty database. Next I create three empty tables in my python code file, that will store the data from my 3 GBQ queries. After committing all three empty tables to sqlite3 database, I begin reading the three local files I stored from the prior GBQ queiries into the empty tables. Once each table has been filled with the correct data, I commit each file to the SQL database I initialized earlier in the python code file. As a finished result, I have a SQL database containing three tables filled with the GBQ data I recently queried.
+This code file is designed to create a local SQL database from the cleaned files we uploaded into GBQ in task 1. To begin I wrote 3 individual queries in GBQ, one query for Sales by date/hour, one query for Sales by owner/year/month, and one query for Sales by product description. I saved all three resulting tables from these queries locally to my device.
 
 # Task 4
 Files for this task:
 
+Wedge Task 4 Creating A SQL Database.ipynb
 
+Now in the python code file I start by initializing a connection to sqlite3 and creating an empty database. Next I create three empty tables in my python code file, that will store the data from my 3 GBQ queries. After committing all three empty tables to sqlite3 database, I begin reading the three local files I stored from the prior GBQ queiries into the empty tables. Once each table has been filled with the correct data, I commit each file to the SQL database I initialized earlier in the python code file. As a finished result, I have a SQL database containing three tables filled with the GBQ data I recently queried.
 
-#Task 5 
+# Task 5 
 Files for this task:
 
 Wedge Data Engineering Final Results.ipynb
