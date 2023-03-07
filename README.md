@@ -9,14 +9,14 @@ Wedge Task_1A Read, Clean, Upload Wedge Files.ipynb
 
 This code file is the beginning stage of the wedge data cleaning process. Here the program will start by reading in and unzipping 53 different data files (different delimiters, different data types, different headers). Once the files are unzipped, the code file will normalize the data types, account for null values, choose the correct delimiter, add uniform headers if needed and convert the zip file to a pandas dataframe. Once the cleaned zip file has been converted to a pandas dataframe, the cleaned dataframe is uploaded into Google Big Query.
 
-#Task 2
+# Task 2
 Files for this task:
 
 Wedge Task 2- A Sample of Owners.ipynb
 
 This code file will work with the cleaned Wedge Data we previously uploaded to GBQ in task 1. The code file establishes a connection to GBQ, and starts by querying a sample of Card Numbers (owners) from the data. Next the code file chooses a random sample of 400 owners from the list of card numbers recently pulled. Finally, the code file queries all of the data entries from GBQ associated with those 400 card numbers, and converts the results into a pandas dataframe. As a final step, the code file writes the pandas dataframe to a CSV output file, so as a finished product we have a CSV file containing all the data associated with our 400 card numbers.
 
-Task 3
+# Task 3
 Files for this task:
 
 Wedge Task 3_Creating_database.ipynb
